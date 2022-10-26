@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Rubik&family=Titillium+Web:wght@200&display=swap');
+
+h1 {
+  font-family: 'Titillium Web', sans-serif;
+  color: whitesmoke;
+}
+
+img {
+  max-width: 150px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px black;
+}
+
+div .body {
+  background-color: #6c757d;
+  width: 500px;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+}
+
+div .ramen {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+body {
+  font-family: 'Asap', sans-serif;
+  background-color: #212529;
+
+}
+
+img .profile_picture {
+  box-shadow: 0, 0, 5px, #e5e5e5;
+}
+
+#profile_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a :hover {
+  transform: scale(1.05)
+}
+
+#ramen_follow {
+  background-image: linear-gradient(45DEG, #405DE6, #5851DB, #833AB4, #C13584, #e1306c, #fd1d1d);
+  height: 50px;
+  opacity: 0.9;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+input :hover {
+  transform: scale(1.5)
+}
+
+.fa-brands {
+  font-size: 50px;
+}
+
+.fa-brands.fa-linkedin {
+  padding-right: 50px;
+}
+
+.fabrands.fa-github {
+  padding-left: 50px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+
+}
+
+li {
+  display: inline-block;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  #profile_container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  #profile_container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  #profile_container {
+    width: 300px;
+  }
+}
